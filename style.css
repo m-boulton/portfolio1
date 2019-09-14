@@ -61,7 +61,6 @@ header {
     border-bottom: #fff 2px solid;
     width: 100%;
     height: 100px;
-    position: sticky;
     top: 0;
 }
 
@@ -100,9 +99,45 @@ header .header-cases {
     display: none;
 }
 
+@media only screen and (min-width 1000px) {
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 20px 0 40px;
+        border-right: #111 3px solid;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 20px 0;
+        float: left;
+    }
+    
+    header nav ul li {
+        float: right;
+        list-style: none;
+        padding: 0 16px;
+    }
+    
+    header nav ul li a {
+        font-family: catamaran;
+        font-size: 16px;
+        color: #111;
+        line-height: 60px;
+        
+    }
+    
+    header .header-cases {
+        display: none;
+    }
+}
+
 /* --- Main Section --- */
 /* --- Main Section --- */
 /* --- Main Section --- */
+
+
 
 .index-banner {
     padding-top: 100px;
@@ -146,7 +181,7 @@ header .header-cases {
     color: #111;
     text-align: center;
     display: block;
-    /*position: relative;*/
+    position: relative;
 }
 .boxlink-square {
     margin: 16px 16px 0px;
