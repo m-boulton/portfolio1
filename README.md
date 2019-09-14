@@ -1,1 +1,2 @@
 # portfolio1
+this is my first attempt at making a portfolio, i am still learning html/css and am currently trying to integrate my usage of git early on so that i can become more proficient with git repositories for future use
