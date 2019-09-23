@@ -203,6 +203,41 @@ header .header-cases {
     line-height: 100px;
     background-color: #f2f2f2;
 }
+.wrapper main h2 {
+    font-family: catamaran;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: #333 solid 4px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.contact-banner {
+    clear: both;
+    display: block;
+    height: 230px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    color: #111;
+    background-color: #f2f2f2;
+    display: table;
+}
+.contact-text {
+    min-height: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.contact-banner a {
+    line-height: 20px;
+    font-size: 16px;
+    color: #111;
+}
+.contact-banner h3 {
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 5 00;
+}
 
 @media only screen and (min-width: 1000px) {
     .wrapper {
