@@ -195,6 +195,7 @@ header .header-cases {
     height: 100px;
     line-height: 100px;
     background-color: #f2f2f2;
+    float: left;
 }
 .boxlink-rectangle {
     margin: 16px 16px 0px;
@@ -202,16 +203,42 @@ header .header-cases {
     height: 100px;
     line-height: 100px;
     background-color: #f2f2f2;
+    float: left;
 }
 .wrapper main h2 {
     font-family: catamaran;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: #333;
     text-transform: uppercase;
     border-bottom: #333 solid 4px;
     padding-bottom: 5px;
     margin: 10px;
+}
+.wrapper main video {
+    width: 100%;
+    padding: 30px 0;
+    margin: 0 auto;
+    display: block;
+}
+main h3 {
+    font-family: catamaran;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+main section p {
+    font-family: catamaran;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    padding-bottom: 5px;
+    margin: 10px;
+    column-count: 3;
+    column-gap: 10px;
 }
 .contact-banner {
     clear: both;
@@ -238,7 +265,11 @@ header .header-cases {
     font-size: 22px;
     font-weight: 5 00;
 }
-
+@media only screen and (min-width: 600px) {
+    .wrapper main video {
+        width: 600px;
+    }
+}
 @media only screen and (min-width: 1000px) {
     .wrapper {
         width: 1000px;
@@ -267,7 +298,6 @@ header .header-cases {
         width: calc(25% - 20px);
         height: 230px;
         line-height: 230px;
-        float: left;
     }
     .boxlink-rectangle {
         font-size: 28px;
@@ -275,7 +305,6 @@ header .header-cases {
         width: calc(50% - 20px);
         height: 230px;
         line-height: 230px;
-        float: left;
     }
 }
 
